@@ -21,3 +21,11 @@
 ### Convert notebook into script:
 - uv run jupyter nbconvert --to=script notebooks/duration-prediction-starter.ipynb
 - Create a new folder 'duration_prediction' and move the file into that folder and renaime it into 'train.py'
+  
+## adapt train.py:
+- make vscode use correct python version (3.10)
+  - enter interpreter path
+  - find .venv in your directory
+- remove # lines from script
+- move imports all to top
+- remove top level statements
